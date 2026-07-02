@@ -50,7 +50,7 @@ Check your current hostname:
 ```bash
 scutil --get LocalHostName
 ```
-Either rename the machine (`sudo scutil --set LocalHostName "your-host"`) or edit `flake.nix` — your call. Also review `darwin.nix` for the `casks` list, `dock.persistent-apps`, and the `loginwindow.LoginwindowText` ("Stay Away — Anuj Pokhriyal") — make them yours or remove them. Same for the configs in `config/`.
+Either rename the machine (`sudo scutil --set LocalHostName "your-host"`) or edit `flake.nix` — your call. Also review `darwin.nix` for the `casks` list, `dock.persistent-apps`, and the `loginwindow.LoginwindowText` ("Stay Away") — make them yours or remove them. Same for the configs in `config/`.
 
 ### 1. Prerequisites
 ```bash
@@ -202,7 +202,7 @@ space from packages you've stopped using.
 - Key repeat cranked (`InitialKeyRepeat 15`, `KeyRepeat 2`), press-and-hold disabled, trackpad scaling 2.0, tap-to-click, three-finger drag. No auto-capitalization, no spell-correct.
 - Dock: autohide, tile 57, magnify to 67, `scale` minimize, minimize-to-application, recents off.
 - Screenshots → `~/Pictures/Screenshots` as `.jpg`. Siri off, Time Machine nagging off, no `.DS_Store` on network/USB volumes.
-- Loginwindow text: **"Stay Away — Anuj Pokhriyal"**.
+- Loginwindow text: **"Stay Away"**.
 
 ### Apps (casks)
 | App | Why it's here |
@@ -211,7 +211,7 @@ space from packages you've stopped using.
 | **AeroSpace** | Tiling WM in native Swift. No SIP disable like yabai |
 | **JankyBorders** | Via native `darwin.nix`. Borders for active and inactive windows.
 | **Zed** | Opens instantly, real vim bindings, written in Rust. I live in nvim; Zed is for when I actually need to code. |
-| **Zen** | Arc that still gets updates. Firefox-based. f chrome. |
+| **Zen** | Arc browser that still gets updates. Firefox-based. f chrome. |
 | **Helium** | Ungoogled, de-bloated Chromium for the few times Chromium is unavoidable. Sips RAM. |
 | **OrbStack** | The Docker Desktop replacement on Apple Silicon. Sips CPU/RAM. Podman on macOS isn't there yet. |
 | **Tailscale** | Mac as exit-node for my phones, reaching the homelab from anywhere. |
@@ -250,7 +250,7 @@ space from packages you've stopped using.
 
 ## 🫡 Acknowledgements
 
-- [**LnL7/nix-darwin**](https://github.com/LnL7/nix-darwin) — declarative macOS.
+- [**nix-darwin**](https://github.com/nix-darwin/nix-darwin) — declarative macOS.
 - [**nix-community/home-manager**](https://github.com/nix-community/home-manager) — declarative home.
 - [**zhaofengli/nix-homebrew**](https://github.com/zhaofengli/nix-homebrew) — declarative Homebrew.
 - [**nikitabobko/AeroSpace**](https://github.com/nikitabobko/AeroSpace) — for making this awesome window manager for macOS.

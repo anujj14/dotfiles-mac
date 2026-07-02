@@ -12,7 +12,7 @@
       save = 50000;
       ignoreDups = true;
       ignoreSpace = true;
-      shareHistory = true; 
+      share = true; 
     };
     initContent = ''
       eval "$(/opt/homebrew/bin/brew shellenv)"

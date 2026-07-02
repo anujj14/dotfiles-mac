@@ -6,7 +6,7 @@ shell-integration = detect
 
 theme = Rose Pine
 # Background/foreground = Tokyo Night
-background-opacity = 0.82
+background-opacity = 0.87
 background-blur-radius = 7        
 window-padding-x = 18
 window-padding-y = 14

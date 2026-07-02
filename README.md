@@ -217,7 +217,6 @@ space from packages you've stopped using.
 | **Tailscale** | Mac as exit-node for my phones, reaching the homelab from anywhere. |
 | **IINA** | Best video player on macOS. |
 | **LocalSend** | Open-source AirDrop. |
-| **Feishin** | Best-looking Navidrome client. Yes it's TypeScript — no better alternative exists. |
 | **Shottr** | Miles better than default screenshots. Quick copy, edit, done. |
 | **Signal / WhatsApp / Telegram** | Privacy + have to use what people use :( |
 | **ImageOptim + Handbrake** | Trim photos/videos before they bloat my Immich server. |
@@ -236,7 +235,6 @@ space from packages you've stopped using.
 | **starship** | So I don't have to configure oh-my-zsh and its bloat. Starship defaults are already the best. |
 | **zoxide** | `cd` with memory. `z proj` jumps to `~/code/projects` after one visit. |
 | **fzf** | For the searches macOS Spotlight can't do. `--height 40% --border`. |
-| **eza** | Colorful `ls`. That's it. |
 | **btop** | Activity Monitor is painfully slow. btop is faster — though it's inaccurate sometimes. |
 | **yazi** | File explorer in the terminal. For when I don't want to leave the shell. |
 | **fastfetch** | Updated neofetch. For those cool screenshots. |
@@ -250,21 +248,14 @@ space from packages you've stopped using.
 
 ---
 
-## 🚫 Not Included 
-
-- **Raycast** — wants to be everything, AI-this AI-that. Just wanted a dmenu for macOS. Default Spotlight works better with new update. Only thing missing was a clipboard manager and the new update gets the job done with that. Still sucks, but okay.
-- **Sketchybar** — Very pretty, but an absolute nightmare to configure without installing bloat (fonts, background scripts, Lua compilers). I can see system stats via `btop`, and AeroSpace already shows my current workspace natively in the macOS menu bar anyway. Plus, I have to reach for the native bar for the Control Center and per-app menu regardless. I was using Sketchybar background as transparent so, why bother maintaining it just for aesthetics? Have to stick with the default for now.
----
-
 ## 🫡 Acknowledgements
 
 - [**LnL7/nix-darwin**](https://github.com/LnL7/nix-darwin) — declarative macOS.
 - [**nix-community/home-manager**](https://github.com/nix-community/home-manager) — declarative home.
 - [**zhaofengli/nix-homebrew**](https://github.com/zhaofengli/nix-homebrew) — declarative Homebrew.
 - [**nikitabobko/AeroSpace**](https://github.com/nikitabobko/AeroSpace) — for making this awesome window manager for macOS.
-- [**mitchellh/ghostty**](https://github.com/mitchellh/ghostty) — For making the terminal I use and love.
+- [**mitchellh/ghostty**](https://github.com/mitchellh/ghostty) — For making the best macOS terminal.
 - [**FelixKratz/JankyBorders**](https://github.com/FelixKratz/JankyBorders) — He does a lot of macOS ricing work. Creator of Sketchybar & JankyBorders. Check him out.
-- [**ChrisTitusTech**](https://www.youtube.com/watch?v=oafpwp0eon4) — the macOS setup video that inspired me to do all this. Also inspired to use Nix.
 - Everyone shipping the open-source apps above.
 
 ---

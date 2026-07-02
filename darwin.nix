@@ -50,9 +50,9 @@
   # jankyborders
   services.jankyborders = {
     enable = true;
-    active_color = "0xc0e2e2e3"; 
-    inactive_color = "0xc02c2e34";
-    background_color = "0x302c2e34";   
+    active_color = "0xc0ebbcba"; 
+    inactive_color = "0xc06e6a86";
+    background_color = "0x30191724";   
     width = 5.0; 
     style = "round";
     hidpi = false;

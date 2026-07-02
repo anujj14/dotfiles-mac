@@ -16,7 +16,6 @@
     username = "anujpokhriyal";
   in {
     darwinConfigurations."anuj-macbook" = darwin.lib.darwinSystem {
-      system = "aarch64-darwin";
       specialArgs = { inherit username; };
       modules = [
         nix-homebrew.darwinModules.nix-homebrew

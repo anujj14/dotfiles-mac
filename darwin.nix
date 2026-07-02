@@ -1,5 +1,7 @@
 { pkgs, config, username, ... }: {
   
+  nixpkgs.hostPlatform = "aarch64-darwin";
+
   nix-homebrew = {
     enable = true;
     enableRosetta = false;

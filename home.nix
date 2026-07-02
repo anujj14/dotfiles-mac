@@ -20,6 +20,7 @@
     ./modules/git.nix
     ./modules/zsh.nix
     ./modules/fzf.nix
+    ./modules/btop.nix
   ];
 
   programs.starship.enable = true;
@@ -36,7 +37,5 @@
   xdg.configFile."fastfetch".source = ./config/fastfetch;
 
   xdg.configFile."yazi".source = ./config/yazi;
-
-  xdg.configFile."btop".source = ./config/btop;
 
 }

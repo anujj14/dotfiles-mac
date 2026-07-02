@@ -1,28 +1,49 @@
--- Basic Settings
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.termguicolors = true
+
+-- indentation (tabs → 4 spaces)
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
+vim.opt.smartindent = true
+vim.opt.autoindent = true
+
+-- search
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
+
+-- editing feel
 vim.opt.mouse = 'a'
+vim.opt.clipboard = 'unnamedplus'   -- system clipboard
+vim.opt.scrolloff = 8
+vim.opt.sidescrolloff = 8
+vim.opt.wrap = false
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+vim.opt.signcolumn = 'yes'
+vim.opt.cursorline = true
+vim.opt.showmode = false 
 
--- creating a completely transparent look for Ghostty.
-local highlights = {
-    "Normal",       -- Main window bg
-    "NormalNC",     -- Non-current window bg
-    "NormalFloat",   -- Floating windows (The "box" thing)
-    "FloatBorder",   -- Floating window borders
-    "SignColumn",    -- Side gutter for line numbers
-    "LineNr", 
-    "CursorLineNr", 
-    "EndOfBuffer"    -- The '~' at the end of files
+-- persistent undo survives restart
+vim.opt.undofile = true
+vim.opt.undodir = vim.fn.stdpath('data') .. '/undo'
+
+--  transparency for Ghostty 
+local clears = {
+  "Normal", "NormalNC", "NormalFloat", "FloatBorder",
+  "SignColumn", "LineNr", "CursorLineNr", "EndOfBuffer",
 }
-
-for _, group in ipairs(highlights) do
-    vim.api.nvim_set_hl(0, group, { bg = "none", ctermbg = "none" })
+for _, g in ipairs(clears) do
+  vim.api.nvim_set_hl(0, g, { bg = "none", ctermbg = "none" })
 end
-
--- Force transparency for floating menus (like autocompletion)
 vim.api.nvim_set_hl(0, "Pmenu", { bg = "none" })
-vim.api.nvim_set_hl(0, "PmenuSel", { bg = "#585b70" }) -- A slight highlight for selection
+vim.api.nvim_set_hl(0, "PmenuSel", { bg = "#524f67" })  -- Rose Pine Highlight
+
+vim.keymap.set('n', '<leader>w', ':w<CR>',  { desc = "Save" })
+vim.keymap.set('n', '<leader>q', ':q<CR>',  { desc = "Quit" })
+vim.keymap.set('n', '<Esc>',      '<cmd>nohlsearch<CR>')
+vim.keymap.set('n', '<C-d>', '<C-d>zz')
+vim.keymap.set('n', '<C-u>', '<C-u>zz')

@@ -34,7 +34,7 @@ Why Nix over `brew install` lists and `stow` symlinks:
 
 ## 🚀 Installation & Setup
 
-Tested on a fresh M1 MacBook Air. Read it through once before pasting.
+Only for Apple Silicon. Tested on a fresh M1 MacBook Air. Read it through once before pasting.
 
 ### 0. Match the flake to *your* machine
 These strings are **mine**, not yours. Change them or the rebuild fails:

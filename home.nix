@@ -35,6 +35,8 @@
 
   xdg.configFile."fastfetch".source = ./config/fastfetch;
 
+  xdg.configFile."yazi".source = ./config/yazi;
+
   xdg.configFile."btop".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/nix-darwin/config/btop";
 
 }

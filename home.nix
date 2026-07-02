@@ -37,6 +37,6 @@
 
   xdg.configFile."yazi".source = ./config/yazi;
 
-  xdg.configFile."btop".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/nix-darwin/config/btop";
+  xdg.configFile."btop".source = ./config/btop;
 
 }

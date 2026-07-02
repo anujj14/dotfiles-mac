@@ -7,7 +7,6 @@
     android-tools
     btop
     cmatrix
-    eza
     fastfetch
     neovim
     pass

@@ -1,9 +1,11 @@
 macos-option-as-alt = true
 font-family = "JetBrainsMono Nerd Font" 
+font-size = 13
 copy-on-select = true              
 shell-integration = detect        
 
-# theme = Rose Pine
+theme = Rose Pine
+# Background/foreground = Tokyo Night
 background-opacity = 0.82
 background-blur-radius = 7        
 window-padding-x = 18
@@ -12,27 +14,4 @@ window-padding-y = 14
 scrollback-limit = 50000
 cursor-style = bar
 cursor-style-blink = true
-
-#Yharnam Blood Theme
-palette = 0=#1e1818
-palette = 1=#cc2424
-palette = 2=#8a6659
-palette = 3=#d46a33
-palette = 4=#5c4554
-palette = 5=#a32c46
-palette = 6=#6b5960
-palette = 7=#c2b2b2
-palette = 8=#6b5757
-palette = 9=#f53d3d
-palette = 10=#b38776
-palette = 11=#fc8c51
-palette = 12=#85667a
-palette = 13=#d94160
-palette = 14=#948089
-palette = 15=#f7e8e8
-background = 160f0f    
-foreground = ebdada    
-cursor-color = f53d3d
-selection-background = 6e1a1a 
-selection-foreground = ffffff
 

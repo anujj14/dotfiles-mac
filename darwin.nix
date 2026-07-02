@@ -19,14 +19,12 @@
     onActivation.cleanup = "none";
     
     taps = [ 
-      "kgarner7/feishin" 
       "ahmetb/iris"
     ];
 
     casks = [
       "aerospace"
       "appcleaner"
-      "feishin"
       "ghostty"
       "handbrake-app"
       "helium-browser"
@@ -52,9 +50,9 @@
   # jankyborders
   services.jankyborders = {
     enable = true;
-    active_color = "0xc0f53d3d"; 
-    inactive_color = "0xc06b5757";
-    background_color = "0x30160f0f";   
+    active_color = "0xc0e2e2e3"; 
+    inactive_color = "0xc02c2e34";
+    background_color = "0x302c2e34";   
     width = 5.0; 
     style = "round";
     hidpi = false;
@@ -62,7 +60,7 @@
 
   system.defaults = {
     SoftwareUpdate.AutomaticallyInstallMacOSUpdates = false;
-    loginwindow.LoginwindowText = "Stay Away - Anuj Pokhriyal";
+    loginwindow.LoginwindowText = "Stay Away";
     
     finder = {
       ShowStatusBar = true;
@@ -85,7 +83,6 @@
       
       NSAutomaticWindowAnimationsEnabled = false;
       AppleInterfaceStyle = "Dark";
-      AppleIconAppearanceTheme = "TintedDark"; 
     };
     
     trackpad = {
@@ -113,7 +110,6 @@
         "/Applications/Zen.app"
         "/Applications/Zed.app"
         "${config.users.users.${username}.home}/Applications/Immich.app"
-        "/Applications/Feishin.app"
         "/Applications/Signal.app"
         "/Applications/WhatsApp.app"
         "/Applications/Telegram.app"
@@ -124,7 +120,7 @@
 
     CustomUserPreferences = {
       ".GlobalPreferences" = {
-        AppleAccentColor = 0;  # 0 = Red 
+        #AppleAccentColor = 0;  # 0 = Red 
       };
       "com.apple.Siri" = {
         StatusMenuVisible = false;

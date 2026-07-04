@@ -30,7 +30,7 @@
 
   home.file."Library/Application Support/com.mitchellh.ghostty/config".source = ./config/ghostty/config;
 
-  xdg.configFile."aerospace".source = ./config/aerospace;
+  xdg.configFile."sketchybar".source = ./config/sketchybar;
   
   xdg.configFile."nvim".source = ./config/nvim;
 

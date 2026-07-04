@@ -1,23 +1,28 @@
 { config, pkgs, ... }: {
   
-  home.stateVersion = "24.05";
+  home.stateVersion = "26.05";
 
 #cli-tools 
   home.packages = with pkgs; [
     android-tools
-    btop
     cmatrix
     fastfetch
-    neovim
     pass
     tmux
     tree
     yazi
+    ghostty-bin
+    zed-editor
+    localsend
+    ice-bar
+    iina
+    image_optim
   ];
 
 #config
   imports = [
     ./modules/aerospace.nix
+    ./modules/nvim.nix
     ./modules/git.nix
     ./modules/zsh.nix
     ./modules/fzf.nix
@@ -30,8 +35,6 @@
 #config-apps symlinks
 
   home.file."Library/Application Support/com.mitchellh.ghostty/config".source = ./config/ghostty/config;
-
-  xdg.configFile."nvim".source = ./config/nvim;
 
   xdg.configFile."fastfetch".source = ./config/fastfetch;
 

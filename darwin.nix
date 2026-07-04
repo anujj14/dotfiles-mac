@@ -26,23 +26,18 @@
 
     casks = [
       "appcleaner"
-      "ghostty"
       "handbrake-app"
       "helium-browser"
-      "iina"
-      "imageoptim"
       "impactor"
       "ahmetb/iris/iris"
       "keka"
-      "localsend"
       "orbstack"
       "shottr"
-      "signal"
       "tailscale-app"
       "telegram"
+      "signal"
       "whatsapp"
       "zen"
-      "zed"
     ];
   };
 
@@ -140,10 +135,6 @@
       };
     };
   };
-
-  system.activationScripts.postActivation.text = ''
-    /usr/bin/killall Dock || true
-  '';
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   nix.gc = {

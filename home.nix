@@ -15,8 +15,9 @@
     yazi
   ];
 
-#config-cli
+#config
   imports = [
+    ./modules/aerospace.nix
     ./modules/git.nix
     ./modules/zsh.nix
     ./modules/fzf.nix
@@ -30,8 +31,6 @@
 
   home.file."Library/Application Support/com.mitchellh.ghostty/config".source = ./config/ghostty/config;
 
-  xdg.configFile."aerospace".source = ./config/aerospace;
-  
   xdg.configFile."nvim".source = ./config/nvim;
 
   xdg.configFile."fastfetch".source = ./config/fastfetch;

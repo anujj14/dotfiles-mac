@@ -25,7 +25,6 @@
     ];
 
     casks = [
-      "aerospace"
       "appcleaner"
       "ghostty"
       "handbrake-app"

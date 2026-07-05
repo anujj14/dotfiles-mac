@@ -79,6 +79,7 @@
       NSAutomaticWindowAnimationsEnabled = false;
       AppleInterfaceStyle = "Dark";
       AppleShowAllExtensions = true;
+      AppleIconAppearanceTheme = "RegularDark";
     };
     
     WindowManager = {

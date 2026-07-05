@@ -7,6 +7,8 @@
     launchd.enable = true; 
 
     settings = {
+      "config-version" = 2;
+
       start-at-login = false;
       automatically-unhide-macos-hidden-apps = true;
       on-focused-monitor-changed = ["move-mouse monitor-lazy-center"];
@@ -24,7 +26,7 @@
         inner.vertical = 10;
         outer.left = 12;
         outer.bottom = 10;
-        outer.top = 2;
+        outer.top = 10;
         outer.right = 12;
       };
 
@@ -51,8 +53,6 @@
         "alt-1" = "workspace 1";
         "alt-2" = "workspace 2";
         "alt-3" = "workspace 3";
-        "alt-c" = "workspace code";
-        "alt-m" = "workspace media";
         "alt-p" = "workspace privt";
         "alt-s" = "workspace social";
         "alt-t" = "workspace todo";
@@ -62,8 +62,6 @@
         "alt-shift-1" = "move-node-to-workspace 1";
         "alt-shift-2" = "move-node-to-workspace 2";
         "alt-shift-3" = "move-node-to-workspace 3";
-        "alt-shift-c" = "move-node-to-workspace code";
-        "alt-shift-m" = "move-node-to-workspace media";
         "alt-shift-p" = "move-node-to-workspace privt";
         "alt-shift-s" = "move-node-to-workspace social";
         "alt-shift-t" = "move-node-to-workspace todo";

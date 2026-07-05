@@ -92,7 +92,7 @@ exec zsh
 ---
 
 ## 🌙 NightTab Configuration
-If you like the start page in my browser screenshots, I use the NightTab extension. You can grab my layout file here: **[user.json](./config/nightTab.json)**.
+If you like the start page in my browser screenshots, I use the NightTab extension. You can grab my layout file here: **[nighttab-batman.json](./nighttab-batman.json)**.
 Just import it via `Settings -> Data -> Restore -> Import from file`.
 
 ---
@@ -204,7 +204,7 @@ space from packages you've stopped using.
 - Screenshots → `~/Pictures/Screenshots` as `.jpg`. Siri off, Time Machine nagging off, no `.DS_Store` on network/USB volumes.
 - Loginwindow text: **"Stay Away"**.
 
-### Apps (casks)
+### Desktop Apps (Casks & Nix)
 | App | Why it's here |
 |---|---|
 | **Ghostty** | Default look is so good I barely configure it. |
@@ -219,18 +219,17 @@ space from packages you've stopped using.
 | **LocalSend** | Open-source AirDrop. |
 | **Shottr** | Miles better than default screenshots. Quick copy, edit, done. |
 | **Signal / WhatsApp / Telegram** | Privacy + have to use what people use :( |
-| **ImageOptim + Handbrake** | Trim photos/videos before they bloat my Immich server. |
 | **AppCleaner** | Because macOS still doesn't know how to uninstall an app. |
-| **Keka** | Because macOS also doesn't know how to handle zips properly. |
 | **Impactor** | IPA sideloader for iPhone/iPad. FU to Apple for not letting me install what I want on devices I own. |
 | **Iris** | Quick webcam check(HandMirror alt). |
+| **Ice** | macOS menu bar customizations. Sketchybar is way more pretty but can't match default for utility.
 
 ### Userland (`home.nix`)
 **CLI packages** (from `nixpkgs-unstable`):
 
 | Tool | Why |
 |---|---|
-| **neovim** | The best editor. I keep it mostly default — no heavy modding. Config in `config/nvim/`. |
+| **neovim** | The best editor. I keep it mostly default — no heavy modding. Configured using modules. |
 | **tmux** | Terminal multiplexer. You know what it does. |
 | **starship** | So I don't have to configure oh-my-zsh and its bloat. Starship defaults are already the best. |
 | **zoxide** | `cd` with memory. `z proj` jumps to `~/code/projects` after one visit. |
@@ -254,7 +253,6 @@ space from packages you've stopped using.
 - [**nix-community/home-manager**](https://github.com/nix-community/home-manager) — declarative home.
 - [**zhaofengli/nix-homebrew**](https://github.com/zhaofengli/nix-homebrew) — declarative Homebrew.
 - [**nikitabobko/AeroSpace**](https://github.com/nikitabobko/AeroSpace) — for making this awesome window manager for macOS.
-- [**mitchellh/ghostty**](https://github.com/mitchellh/ghostty) — For making the best macOS terminal.
 - [**FelixKratz/JankyBorders**](https://github.com/FelixKratz/JankyBorders) — He does a lot of macOS ricing work. Creator of Sketchybar & JankyBorders. Check him out.
 - Everyone shipping the open-source apps above.
 

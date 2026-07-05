@@ -17,6 +17,7 @@
     ice-bar
     iina
     image_optim
+    signal-desktop
   ];
 
 #config

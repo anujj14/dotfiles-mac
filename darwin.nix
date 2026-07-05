@@ -26,17 +26,14 @@
 
     casks = [
       "appcleaner"
-      "handbrake-app"
       "helium-browser"
       "impactor"
       "ahmetb/iris/iris"
-      "keka"
       "orbstack"
       "shottr"
       "tailscale-app"
-      "telegram"
-      "signal"
       "whatsapp"
+      "telegram"
       "zen"
     ];
   };

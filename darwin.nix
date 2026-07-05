@@ -43,7 +43,6 @@
      reattach = true;
    };
 
-
   # jankyborders
   services.jankyborders = {
     enable = true;
@@ -77,9 +76,25 @@
       "com.apple.trackpad.scaling" = 2.0;
       NSAutomaticCapitalizationEnabled = false;
       NSAutomaticSpellingCorrectionEnabled = false;
-      
       NSAutomaticWindowAnimationsEnabled = false;
       AppleInterfaceStyle = "Dark";
+      AppleShowAllExtensions = true;
+    };
+    
+    WindowManager = {
+      EnableTiledWindowMargins = false;
+    };
+
+    controlcenter = {
+      BatteryShowPercentage = true;
+    };
+
+    magicmouse = {
+      MouseButtonMode = "OneButton";
+    };
+
+    menuExtraClock = {
+      ShowSeconds = true;
     };
     
     trackpad = {
@@ -100,6 +115,8 @@
       launchanim = true;
       show-process-indicators = true;
       show-recents = false;
+      expose-group-apps = true;
+      wvous-br-corner = 14;
       
       persistent-apps = [
         "/Users/${username}/Applications/Home Manager Apps/Ghostty.app"

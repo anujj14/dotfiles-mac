@@ -102,12 +102,12 @@
       show-recents = false;
       
       persistent-apps = [
-        "/Users/anujpokhriyal/Applications/Home Manager Apps/Ghostty.app"
+        "/Users/${username}/Applications/Home Manager Apps/Ghostty.app"
         "/Applications/Helium.app"
         "/Applications/Zen.app"
-        "/Users/anujpokhriyal/Applications/Home Manager Apps/Zed.app"
-        "${config.users.users.${username}.home}/Applications/Immich.app"
-        "/Applications/Signal.app"
+        "/Users/${username}/Applications/Home Manager Apps/Zed.app"
+        "/Users/${username}/Applications/Immich.app"
+        "/Users/${username}/Applications/Home Manager Apps/Signal.app"
         "/Applications/WhatsApp.app"
         "/Applications/Telegram.app"
         "/System/Applications/Notes.app"

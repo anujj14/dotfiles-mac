@@ -22,6 +22,8 @@
 
 ## 🧭 Overview
 
+<img width="800" height="500" alt="github-hero" src="https://github.com/user-attachments/assets/b33ce7a8-9a35-457a-8618-1aea550445a5" />
+
 One `darwin-rebuild switch` and the machine is mine — Finder tamed, dock stripped, touch-ID-for-sudo on, apps installed, dotfiles symlinked, shell loaded. Wipe the Mac, run the command, come back to an identical machine.
 
 Why Nix over `brew install` lists and `stow` symlinks:
@@ -95,6 +97,7 @@ exec zsh
 If you like the start page in my browser screenshots, I use the NightTab extension. You can grab my layout file here: **[nighttab-batman.json](./nighttab-batman.json)**.
 Just import it via `Settings -> Data -> Restore -> Import from file`.
 
+<img width="2792" height="1726" alt="nightTab" src="https://github.com/user-attachments/assets/6de96ecd-9a05-428b-a8ac-6c4d3c6706b6" />
 ---
 
 ## 🔁 Day-to-Day Usage
@@ -140,6 +143,8 @@ nix-collect-garbage --delete-older-than 14d
 ---
 
 ## 🧪 Ad-hoc Dev Environments
+
+<img width="1440" height="900" alt="adhoc" src="https://github.com/user-attachments/assets/ef7dcf1b-7982-4d72-8490-903252db11a2" />
 
 The whole point of not bloating the main desktop. Drop a `flake.nix` in any project:
 

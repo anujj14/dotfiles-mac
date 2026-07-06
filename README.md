@@ -46,8 +46,7 @@ These strings are **mine**, not yours. Change them or the rebuild fails:
 |---|---|---|
 | `flake.nix` | `darwinConfigurations."anuj-macbook"` | your hostname |
 | `flake.nix` | `username = "anujpokhriyal"` | your short username |
-| `modules/git.nix` | `programs.git.settings.user` (`"Your Name"` / `"your.email@example.com"`) | your git identity |
-| `modules/git.nix` | `user.signingkey` | path to your SSH key (or remove signing block) |
+| `modules/git.nix` | `programs.git.settings.user` (`"Name"` / `"Email"`/ `"Signing Key"`) | your git identity |
 
 Check your current hostname:
 ```bash
@@ -95,7 +94,7 @@ exec zsh
 ---
 
 ## 🌙 NightTab Configuration
-If you like the start page in my browser screenshots, I use the NightTab extension. You can grab my layout file here: **[nighttab-batman.json](./nighttab-batman.json)**.
+I use the NightTab extension. If you like it you can grab my layout file here: **[nighttab-batman.json](./config/nighttab-batman.json)**.
 Just import it via `Settings -> Data -> Restore -> Import from file`.
 
 <p align="center">

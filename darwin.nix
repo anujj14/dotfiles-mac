@@ -51,7 +51,7 @@
     background_color = "0x30191724";   
     width = 5.0; 
     style = "round";
-    hidpi = false;
+    hidpi = true;
   };
 
   system.defaults = {

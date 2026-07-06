@@ -97,9 +97,6 @@
         # Workspaces
         { "if".app-id = "com.mitchellh.ghostty"; run = ["layout tiling" "move-node-to-workspace 1"]; }
         { "if".app-id = "com.apple.finder"; run = "move-node-to-workspace 2"; }
-        { "if".app-id = "dev.zed.Zed"; run = "move-node-to-workspace code"; }
-        { "if".app-id = "com.apple.QuickTimePlayerX"; run = "move-node-to-workspace media"; }
-        { "if".app-id = "com.colliderli.iina"; run = ["layout floating" "move-node-to-workspace media"]; }
 
         { "if".app-id = "com.apple.MobileSMS"; run = "move-node-to-workspace social"; }
         { "if".app-id = "com.apple.mail"; run = "move-node-to-workspace social"; }

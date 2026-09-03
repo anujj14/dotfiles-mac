@@ -20,21 +20,16 @@
     enable = true;
     onActivation.cleanup = "none";
     
-    taps = [ 
-      "ahmetb/iris"
+    brews = [
+      "mole"
     ];
 
     casks = [
-      "appcleaner"
+      "vorssaint"
       "helium-browser"
       "impactor"
-      "ahmetb/iris/iris"
-      "orbstack"
-      "shottr"
       "tailscale-app"
       "whatsapp"
-      "telegram"
-      "zen"
     ];
   };
 
@@ -127,7 +122,7 @@
         "/Users/${username}/Applications/Immich.app"
         "/Users/${username}/Applications/Home Manager Apps/Signal.app"
         "/Applications/WhatsApp.app"
-        "/Applications/Telegram.app"
+        "/Users/${username}/Applications/Home Manager Apps/Telegram.app"
         "/System/Applications/Notes.app"
         "/System/Applications/System Settings.app"
       ];

@@ -16,7 +16,7 @@
     localsend
     ice-bar
     iina
-    image_optim
+    telegram-desktop
     signal-desktop
   ];
 

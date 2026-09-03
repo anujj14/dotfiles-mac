@@ -7,7 +7,7 @@
       user = {
         name = "Anuj Pokhriyal";
         email = "77380156+anujj14@users.noreply.github.com";
-        signingkey = "~/.ssh/id_ed25519_signing.pub"; 
+        signingkey = "~/.ssh/id_ed25519_github.pub"; 
       };
       commit.gpgsign = true;
       gpg.format = "ssh";

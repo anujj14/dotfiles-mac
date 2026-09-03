@@ -117,7 +117,6 @@
       persistent-apps = [
         "/Users/${username}/Applications/Home Manager Apps/Ghostty.app"
         "/Applications/Helium.app"
-        "/Applications/Zen.app"
         "/Users/${username}/Applications/Home Manager Apps/Zed.app"
         "/Users/${username}/Applications/Immich.app"
         "/Users/${username}/Applications/Home Manager Apps/Signal.app"
